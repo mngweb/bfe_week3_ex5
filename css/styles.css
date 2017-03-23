@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#markup{
+    display: flexbox;
+    align-items: start;
+}
+
+#markup hr{
+    margin: 10px 0;
+}
+
+#input, #output{
+    display: inline-block;
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+    background-color: yellow;
+}
