@@ -20,7 +20,7 @@ https://github.com/showdownjs/showdown
         start = document.querySelector("#start"),
         stop = document.querySelector("#stop"),
         progress = document.querySelector("#progress"),
-        markupOutput = document.querySelector("#markupOutput"),
+        markdownOutput = document.querySelector("#markdownOutput"),
         htmlOutput = document.querySelector("#htmlOutput");
 
     fileInput.onchange = function() { 
@@ -44,10 +44,10 @@ https://github.com/showdownjs/showdown
 
             reader.onload = function(e) {
                 var converter = new showdown.Converter(),
-                    markup = this.result,
-                    html = converter.makeHtml(markup);
+                    markdown = this.result,
+                    html = converter.makeHtml(markdown);
 
-                markupOutput.innerText = this.result;
+                markdownOutput.innerText = this.result;
                 //console.log(this.result);
 
                 htmlOutput.innerText = html;
