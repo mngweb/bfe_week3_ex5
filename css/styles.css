@@ -10,12 +10,12 @@
     margin: 0 auto;
 }
 
-#markup{
+#markdown{
     display: flex;
     align-items: start;
 }
 
-#markup hr{
+#markdown hr{
     margin: 10px 0;
 }
 
