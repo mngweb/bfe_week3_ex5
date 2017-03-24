@@ -11,7 +11,7 @@
 }
 
 #markup{
-    display: flexbox;
+    display: flex;
     align-items: start;
 }
 
@@ -20,7 +20,6 @@
 }
 
 #input, #output{
-    display: inline-block;
     width: 40%;
     margin: 3%;
     padding: 2%;
