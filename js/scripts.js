@@ -10,10 +10,6 @@ https://github.com/showdownjs/showdown
 
 (function() {
 
-    //PYTANIE 1: Jak zrobić aby oba divy zaczynały się w jednej lini?
-
-    //PYTANIE 2: Co można zrobić z wychodzącymi z diva fragmentami wynikowego htmla?
-
    if(!window.FileReader) return; 
 
     var fileInput = document.querySelector("#fileInput"),
