@@ -55,7 +55,10 @@ https://github.com/showdownjs/showdown
                 reader.readAsText(file);
             }
 
-
+            copyHTML.onclick = function() {
+                htmlOutput.select();
+                document.execCommand('copy');
+            }
 
 
     }
