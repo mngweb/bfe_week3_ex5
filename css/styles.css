@@ -26,3 +26,9 @@
     background-color: yellow;
     word-wrap: break-word;
 }
+
+#markdown textarea{
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+}
