@@ -48,6 +48,9 @@ https://github.com/showdownjs/showdown
 
                 htmlOutput.innerText = html;
                 // console.log(html);
+
+                markdownOutput.style.height = (markdownOutput.scrollHeight)+"px"; 
+                htmlOutput.style.height = (htmlOutput.scrollHeight)+"px"; 
             }
 
 
